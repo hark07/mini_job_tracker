@@ -55,6 +55,4 @@ Make sure you have installed:
 
 ### 1. Clone repository
 
-```bash
-git clone https://github.com/your-username/job-tracker.git
-cd job-tracker
+git clone https://github.com/hark07/mini_job_tracker.git
