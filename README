@@ -54,8 +54,36 @@ Make sure you have installed:
 ## ⚙️ Installation Steps
 
 ### 1. Clone repository
-
+```bash
 git clone https://github.com/hark07/mini_job_tracker.git
+cd mini_job_tracker
+
+### 2. Backend setup
+- cd backend
+- npm install
+
+### 3. Setup environment variables
+
+- Create .env file inside backend:
+
+  DATABASE_URL="mysql://root:password@localhost:3306/job_tracker"
+  PORT=5000
+### 4. Prisma setup
+- npx prisma generate
+- npx prisma migrate dev --name init
+## 5. Run backend (development mode)
+- npm run dev
+
+## Backend runs at:
+
+ http://localhost:5000
+### 6. Frontend setup
+- cd frontend
+- npm install
+- npm run dev
+
+## Frontend runs at:
+ http://localhost:5173
 
 ## 📸 Screenshots
 
