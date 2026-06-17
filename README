@@ -1,1 +1,60 @@
-#Job Application Tracker (Full Stack Project)
+# 📊 Job Application Tracker (Full Stack Project)
+
+A simple full-stack web application to track job applications through different hiring stages such as Applied, Interviewing, Offer, and Rejected.
+
+This project is built as part of the **InternSathi Full Stack Internship Assignment**.
+
+---
+
+## 🚀 Project Overview
+
+The Job Application Tracker helps users manage and monitor their job applications in one place.
+
+### ✨ Features
+- Add job applications
+- View all applications in dashboard
+- Edit/update application details
+- Delete applications
+- Filter by status (Applied, Interviewing, Offer, Rejected)
+- Search by company or job title
+- Responsive UI (mobile + desktop)
+- Pagination (frontend)
+
+---
+
+## 🛠 Tech Stack Used
+
+### Frontend
+- React + TypeScript
+- Tailwind CSS
+- Axios
+- React Router DOM
+
+### Backend
+- Node.js
+- Express.js
+- Prisma ORM
+
+### Database
+- MySQL
+
+---
+
+## 📦 Prerequisites
+
+Make sure you have installed:
+
+- Node.js (>= 18)
+- npm or yarn
+- MySQL Server
+- Git
+
+---
+
+## ⚙️ Installation Steps
+
+### 1. Clone repository
+
+```bash
+git clone https://github.com/your-username/job-tracker.git
+cd job-tracker
