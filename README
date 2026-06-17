@@ -44,8 +44,8 @@ The Job Application Tracker helps users manage and monitor their job application
 
 Make sure you have installed:
 
-- Node.js (>= 18)
-- npm or yarn
+- Node.js
+- npm
 - MySQL Server
 - Git
 
@@ -56,3 +56,14 @@ Make sure you have installed:
 ### 1. Clone repository
 
 git clone https://github.com/hark07/mini_job_tracker.git
+
+## 📸 Screenshots
+
+### Dashboard Page
+![Dashboard](./assets/dashboard.png)
+
+### Add Application Form
+![Add Form](./assets/Add Job Application.png)
+
+### Edit Application Form
+![Edit Form](./assets/EditApplication.png)
